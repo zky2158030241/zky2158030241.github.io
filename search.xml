@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Spring Boot介绍</title>
+      <link href="/2022/12/27/Spring-Boot%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2022/12/27/Spring-Boot%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="相关介绍"><a href="#相关介绍" class="headerlink" title="相关介绍"></a>相关介绍</h2><p>Spring框架<br>Spring框架是Java平台上的一种开源应用框架，提供具有控制反转特性的容器。尽管Spring框架自身对编程模型没有限制，但其在Java应用中的频繁使用让它备受青睐，以至于后来让它作为EJB（EnterpriseJavaBeans）模型的补充，甚至是替补。Spring框架为开发提供了一系列的解决方案，比如利用控制反转的核心特性，并通过依赖注入实现控制反转来实现管理对象生命周期容器化，利用面向切面编程进行声明式的事务管理，整合多种持久化技术管理数据访问，提供大量优秀的Web框架方便开发等等。Spring框架具有控制反转（IOC）特性，IOC旨在方便项目维护和测试，它提供了一种通过Java的反射机制对Java对象进行统一的配置和管理的方法。Spring框架利用容器管理对象的生命周期，容器可以通过扫描XML文件或类上特定Java注解来配置对象，开发者可以通过依赖查找或依赖注入来获得对象。Spring框架具有面向切面编程（AOP）框架，SpringAOP框架基于代理模式，同时运行时可配置；AOP框架主要针对模块之间的交叉关注点进行模块化。Spring框架的AOP框架仅提供基本的AOP特性，虽无法与AspectJ框架相比，但通过与AspectJ的集成，也可以满足基本需求。Spring框架下的事务管理、远程访问等功能均可以通过使用SpringAOP技术实现。Spring的事务管理框架为Java平台带来了一种抽象机制，使本地和全局事务以及嵌套事务能够与保存点一起工作，并且几乎可以在Java平台的任何环境中工作。Spring集成多种事务模板，系统可以通过事务模板、XML或Java注解进行事务配置，并且事务框架集成了消息传递和缓存等功能。Spring的数据访问框架解决了开发人员在应用程序中使用数据库时遇到的常见困难。它不仅对Java:JDBC、iBATS&#x2F;MyBATIs、Hibernate、Java数据对象（JDO）、ApacheOJB和ApacheCayne等所有流行的数据访问框架中提供支持，同时还可以与Spring的事务管理一起使用，为数据访问提供了灵活的抽象。Spring框架最初是没有打算构建一个自己的WebMVC框架，其开发人员在开发过程中认为现有的StrutsWeb框架的呈现层和请求处理层之间以及请求处理层和模型之间的分离不够，于是创建了SpringMVC。</p><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>SpringBoot基于Spring4.0设计，不仅继承了Spring框架原有的优秀特性，而且还通过简化配置来进一步简化了Spring应用的整个搭建和开发过程。另外SpringBoot通过集成大量的框架使得依赖包的版本冲突，以及引用的不稳定性等问题得到了很好的解决。 [1]<br>SpringBoot所具备的特征有：<br>（1）可以创建独立的Spring应用程序，并且基于其Maven或Gradle插件，可以创建可执行的JARs和WARs；<br>（2）内嵌Tomcat或Jetty等Servlet容器；<br>（3）提供自动配置的“starter”项目对象模型（POMS）以简化Maven配置；<br>（4）尽可能自动配置Spring容器；<br>（5）提供准备好的特性，如指标、健康检查和外部化配置；<br>（6）绝对没有代码生成，不需要XML配置。 [1]  [2] </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaScript的介绍</title>
+      <link href="/2022/12/27/JavaScript%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2022/12/27/JavaScript%E7%9A%84%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="JavaScript最初由Netscape的Brendan-Eich设计，最初将其脚本语言命名为LiveScript，后来Netscape在与Sun合作之后将其改名为JavaScript。JavaScript最初受Java启发而开始设计的，目的之一就是“看上去像Java”，因此语法上有类似之处，一些名称和命名规范也借自Java，但JavaScript的主要设计原则源自Self和Scheme。JavaScript与Java名称上的近似，是当时Netscape为了营销考虑与Sun微系统达成协议的结果。微软同时期也推出了JScript来迎战JavaScript的脚本语言。"><a href="#JavaScript最初由Netscape的Brendan-Eich设计，最初将其脚本语言命名为LiveScript，后来Netscape在与Sun合作之后将其改名为JavaScript。JavaScript最初受Java启发而开始设计的，目的之一就是“看上去像Java”，因此语法上有类似之处，一些名称和命名规范也借自Java，但JavaScript的主要设计原则源自Self和Scheme。JavaScript与Java名称上的近似，是当时Netscape为了营销考虑与Sun微系统达成协议的结果。微软同时期也推出了JScript来迎战JavaScript的脚本语言。" class="headerlink" title="JavaScript最初由Netscape的Brendan Eich设计，最初将其脚本语言命名为LiveScript，后来Netscape在与Sun合作之后将其改名为JavaScript。JavaScript最初受Java启发而开始设计的，目的之一就是“看上去像Java”，因此语法上有类似之处，一些名称和命名规范也借自Java，但JavaScript的主要设计原则源自Self和Scheme。JavaScript与Java名称上的近似，是当时Netscape为了营销考虑与Sun微系统达成协议的结果。微软同时期也推出了JScript来迎战JavaScript的脚本语言。"></a>JavaScript最初由Netscape的Brendan Eich设计，最初将其脚本语言命名为LiveScript，后来Netscape在与Sun合作之后将其改名为JavaScript。JavaScript最初受Java启发而开始设计的，目的之一就是“看上去像Java”，因此语法上有类似之处，一些名称和命名规范也借自Java，但JavaScript的主要设计原则源自Self和Scheme。JavaScript与Java名称上的近似，是当时Netscape为了营销考虑与Sun微系统达成协议的结果。微软同时期也推出了JScript来迎战JavaScript的脚本语言。</h2><h2 id="语言特点"><a href="#语言特点" class="headerlink" title="语言特点"></a>语言特点</h2><p>JavaScript脚本语言具有以下特点:<br>（1）脚本语言。JavaScript是一种解释型的脚本语言，C、C++等语言先编译后执行，而JavaScript是在程序的运行过程中逐行进行解释。<br>（2）基于对象。JavaScript是一种基于对象的脚本语言，它不仅可以创建对象，也能使用现有的对象。<br>（3）简单。JavaScript语言中采用的是弱类型的变量类型，对使用的数据类型未做出严格的要求，是基于Java基本语句和控制的脚本语言，其设计简单紧凑。<br>（4）动态性。JavaScript是一种采用事件驱动的脚本语言，它不需要经过Web服务器就可以对用户的输入做出响应。在访问一个网页时，鼠标在网页中进行鼠标点击或上下移、窗口移动等操作JavaScript都可直接对这些事件给出相应的响应。<br>（5）跨平台性。JavaScript脚本语言不依赖于操作系统，仅需要浏览器的支持。因此一个JavaScript脚本在编写后可以带到任意机器上使用，前提是机器上的浏览器支 持JavaScript脚本语言，JavaScript已被大多数的浏览器所支持。 [6]  不同于服务器端脚本语言，例如PHP与ASP，JavaScript主要被作为客户端脚本语言在用户的浏览器上运行，不需要服务器的支持。所以在早期程序员比较倾向于使用JavaScript以减少对服务器的负担，而与此同时也带来另一个问题，安全性。<br>而随着服务器的强壮，虽然程序员更喜欢运行于服务端的脚本以保证安全，但JavaScript仍然以其跨平台、容易上手等优势大行其道。同时，有些特殊功能（如AJAX）必须依赖JavaScript在客户端进行支持。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VUE介绍</title>
+      <link href="/2022/12/27/VUE%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2022/12/27/VUE%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="产生背景"><a href="#产生背景" class="headerlink" title="产生背景"></a>产生背景</h2><p>AngularJS是Vue早期开发的灵感来源。然而，AngularJS 中存在的许多问题，在 Vue 中已经得到解决</p><h2 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h2><p>Vue.js是一套构建用户界面的渐进式框架。与其他重量级框架不同的是，Vue采用自底向上增量开发的设计。Vue 的核心库只关注视图层，并且非常容易学习，非常容易与其它库或已有项目整合。另一方面，Vue 完全有能力驱动采用单文件组件和Vue生态系统支持的库开发的复杂单页应用。<br>Vue.js 的目标是通过尽可能简单的 API 实现响应的数据绑定和组合的视图组件。<br>Vue.js 自身不是一个全能框架——它只聚焦于视图层。因此它非常容易学习，非常容易与其它库或已有项目整合。另一方面，在与相关工具和支持库一起使用时 [1]  ，Vue.js 也能驱动复杂的单页应用。</p><h2 id="语言特点"><a href="#语言特点" class="headerlink" title="语言特点"></a>语言特点</h2><p>易用<br>在有HTML，CSS，JavaScript的基础上，快速上手。<br>Vue.js 的 API 是参考了AngularJS、KnockoutJS、Ractive.js、Rivets.js。<br>Vue.js 的 API 的对于其他框架的参考不仅是参考，其中也包含了许多 Vue.js 的独特功能。<br>灵活<br>简单小巧的核心，渐进式技术栈，足以应付任何规模的应用。<br>性能<br>20kb min+gzip 运行大小、超快虚拟 DOM 、最省心的优化</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>html的介绍</title>
+      <link href="/2022/12/27/html%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2022/12/27/html%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="由来"><a href="#由来" class="headerlink" title="由来"></a>由来</h2><p>HTML的英文全称是 Hyper Text Markup Language，即超文本标记语言。HTML是由Web的发明者 Tim Berners-Lee和同事 Daniel W. Connolly于1990年创立的一种标记语言，它是标准通用化标记语言SGML的应用。用HTML编写的超文本文档称为HTML文档，它能独立于各种操作系统平台(如UNIX， Windows等)。使用HTML，将所需要表达的信息按某种规则写成HTML文件，通过专用的浏览器来识别，并将这些HTML文件“翻译”成可以识别的信息，即我们所见到的网页。 [2]<br>自1990年以来，HTML就一直被用作万维网的信息表示语言，使用HTML描述的文件需要通过web浏览器显示出效果。HTML是一种建立网页文件的语言，通过标记式的指令(Tag)，将影像、声音、图片、文字动画、影视等内容显示出来。事实上，每一个HTML文档都是一种静态的网页文件，这个文件里面包含了HTML指令代码，这些指令代码并不是一种程序语言，只是一种排版网页中资料显示位置的标记结构语言，易学易懂，非常简单。HTML的普遍应用就是带来了超文本的技术―通过单击鼠标从一个主题跳转到另一个主题，从一个页面跳转到另一个页面，与世界各地主机的文件链接超文本传输协议规定了浏览器在运行HTML文档时所遵循的规则和进行的操作。HTTP的制定使浏览器在运行超文本时有了统一的规则和标准。 [2]<br>万维网（world wide web，简称www）上的一个超媒体文档称之为一个页面（外语：page）。作为一个组织或者个人在万维网上放置开始点的页面称为主页（外语：Homepage）或首页，主页中通常包括有指向其他相关页面或其他节点的指针（超级链接），所谓超级链接，就是一种统一资源定位器（Uniform Resource Locator，外语缩写：URL）指针，通过激活（点击）它，可使浏览器方便地获取新的网页。这也是HTML获得广泛应用的最重要的原因之一。在逻辑上将视为一个整体的一系列页面的有机集合称为网站（Website或Site）。超文本标记语言（英文缩写：HTML）是为“网页创建和其它可在网页浏览器中看到的信息”设计的一种标记语言。 [3]<br>网页的本质就是超文本标记语言，通过结合使用其他的Web技术（如：脚本语言、公共网关接口、组件等），可以创造出功能强大的网页。因而，超文本标记语言是万维网（Web）编程的基础，也就是说万维网是建立在超文本基础之上的。超文本标记语言之所以称为超文本标记语言，是因为文本中包含了所谓“超级链接”点。</p><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>超文本标记语言是标准通用标记语言下的一个应用，也是一种规范，一种标准，它通过标记符号来标记要显示的网页中的各个部分。网页文件本身是一种文本文件，通过在文本文件中添加标记符，可以告诉浏览器如何显示其中的内容（如：文字如何处理，画面如何安排，图片如何显示等）。浏览器按顺序阅读网页文件，然后根据标记符解释和显示其标记的内容，对书写出错的标记将不指出其错误，且不停止其解释执行过程，编制者只能通过显示效果来分析出错原因和出错部位。但需要注意的是，对于不同的浏览器，对同一标记符可能会有不完全相同的解释，因而可能会有不同的显示效果。 [3</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据库管理系统</title>
+      <link href="/2022/12/27/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2022/12/27/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>数据库是存放数据的仓库。它的存储空间很大，可以存放百万条、千万条、上亿条数据。但是数据库并不是随意地将数据进行存放，是有一定的规则的，否则查询的效率会很低。当今世界是一个充满着数据的互联网世界，充斥着大量的数据。即这个互联网世界就是数据世界。数据的来源有很多，比如出行记录、消费记录、浏览的网页、发送的消息等等。除了文本类型的数据，图像、音乐、声音都是数据。<br>数据库是一个按数据结构来存储和管理数据的计算机软件系统。数据库的概念实际包括两层意思：<br>（1）数据库是一个实体，它是能够合理保管数据的“仓库”，用户在该“仓库”中存放要管理的事务数据，“数据”和“库”两个概念结合成为数据库。<br>（2）数据库是数据管理的新方法和技术，它能更合适的组织数据、更方便的维护数据、更严密的控制数据和更有效的利用数据。<br>数据库作为最重要的基础软件，是确保计算机系统稳定运行的基石。<br> 数据库管理系统是为管理数据库而设计的电脑软件系统，一般具有存储、截取、安全保障、备份等基础功能。数据库管理系统可以依据它所支持的数据库模型来作分类，例如关系式、XML；或依据所支持的计算机类型来作分类，例如服务器群集、移动电话；或依据所用查询语言来作分类，例如SQL、XQuery；或依据性能冲量重点来作分类，例如最大规模、最高运行速度；亦或其他的分类方式。不论使用哪种分类方式，一些DBMS能够跨类别，例如，同时支持多种查询语言。 [1]<br>数据库管理系统是数据库系统的核心组成部分，主要完成对数据库的操作与管理功能，实现数据库对象的创建、数据库存储数据的查询、添加、修改与删除操作和数据库的用户管理、权限管理等。它的安全直接关系到整个数据库系统的安全，其防护手段主要有：<br>（1）使用正版数据库管理系统并及时安装相关补丁。<br>（2）做好用户账户管理，禁用默认超级管理员账户或者为超级管理员账户设置复杂密码；为应用程序分别分配专用账户进行访问；设置用户登录时间及登录失败次数限制， 防止暴力破解用户密码。<br>（3）分配用户访问权限时，坚持最小权限分配原则，并限制用户只能访问特定数据库，不能同时访问其他数据库。<br>（4）修改数据库默认访问端口，使用防火墙屏蔽掉对 外开放的其他端口，禁止一切外部的端口探测行为。<br>（5）对数据库内存储的重要数据、敏感数据进行加密存储，防止数据库备份或数据文件被盗而造成数据泄露。<br>（6）设置好数据库的备份策略，保证数据库被破坏后能迅速恢复。<br>（7）对数据库内的系统存储过程进行合理管理，禁用掉不必要的存储过程，防止利用存储过程进行数据库探测与攻击。<br>（8）启用数据库审核功能，对数据库进行全面的事件跟踪和日志记录。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人相册</title>
+      <link href="/2022/12/27/%E4%B8%AA%E4%BA%BA%E7%9B%B8%E5%86%8C/"/>
+      <url>/2022/12/27/%E4%B8%AA%E4%BA%BA%E7%9B%B8%E5%86%8C/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人信息 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>想</title>
+      <link href="/2022/12/27/%E6%83%B3/"/>
+      <url>/2022/12/27/%E6%83%B3/</url>
+      
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>我想你了，可是我不能对你说，就像开满梨花的树上，永远不可能结出苹果。 我想你了，可是我不能对你说，就像高挂天边的彩虹，永远无人能够触摸。 我想你了，可是我不能对你说，就像火车的轨道，永远不会有轮船驶过。 我想你了，可我，真的不能对你说，怕只怕，说了，对你，也是一种折磨。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 精彩美文 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>时光，你好</title>
+      <link href="/2022/12/27/%E6%97%B6%E5%85%89%EF%BC%8C%E4%BD%A0%E5%A5%BD/"/>
+      <url>/2022/12/27/%E6%97%B6%E5%85%89%EF%BC%8C%E4%BD%A0%E5%A5%BD/</url>
+      
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>时光，你好。一声问候，竟哽咽难言。岁月如水，湍湍流过。静静地，仿若在你的怀抱沉睡，不愿清醒。街角的书店，多少次回眸，哪一天，忽然消失不见。一句“你好”，漫天柳絮飞扬。岁月如此静好，而你，在窗台那一朵百合盛放后，去了哪里？<br>    时光穿梭，我在青涩花季，遇到最初的爱恋。木棉如火，像心中跳跃的火焰。日记本里，满满的，你的容颜，我的衷肠。是谁，时光里点亮了那盏灯，多少次午夜梦回，你在未来，我还在过去。岁月如刃，分割了距离，切断了情丝。我剪短了你爱的长发，故作坚强，在站台上，目送你的一去不回。距离成了你的借口，我的伤口。你我之间，时光荏苒，直至彼此不再想念。<br>    我伸手，想握住时光的尾巴，我不及长大，而你，不愿等待。依稀记得，那一年春天，你我徜徉在无垠的油菜花田。蝶飞蜂鸣，大地仿若披上金黄的晚礼服，那声声追逐的笑声，飘荡风中，甜蜜的、带着沁凉。蓝天，白云，溪水，微风，还有眼里那一抹你的容颜色彩，定格成了一张彩色画面，烙印记忆，不褪色，不磨灭。<br>    冬雨绵绵，冷入心脾。你的围巾，熟悉的气息。手，却没了温度。我在大榕树下，望着空荡荡的桠枝，一丝苦涩。树下，尘封的秘密，不敢触碰，两片黄叶，打着旋，缠绕着，随风散开，仿佛在跳一支探戈，最终落入泥土。我俯身，手轻触叶面，失去莹润的绿色，斑黄的面容，是谁的叹息。我转身，双手搓揉，让温暖渗透。不再回头，撑着伞，看着脚下泥泞，脚印深深，已留长的发，前方，雨帘朦胧。<br>    时光，是你刺向心底最深的利刃。分切了距离，绞碎了柔肠。你身畔，如今是谁的身影，寂寥晚风，蜜语犹在耳畔。如今，月朦星稀，踽踽而行。我在时光里任性地漂流，靡靡心伤，恐欲人知。再相逢，只能擦肩，终是陌路，无法前行。<br>    时光啊，告诉我，多少问候，被你掩藏。曾经描摹的眉目，浓墨惆怅。如江南，情归之所，难敌岁月无常。我在桥头极目而眺，往日身影虚妄。浅浅河岸，柳腰随风舞动。渔女轻摇橹桨，含笑凝眸，淡然美好。幡然醒悟，苦苦痴缠，即使珍珠亦无光，只能掩于砂砾，被人遗忘。有一种绝望，叫做等待；有一种侥幸，叫做希望；有一种情深，叫做遗忘。时光晕染了青春，难言忧伤。<br>    月上梢头，笑靥清雅。对镜理妆，眉眼轻扫。前尘往事，水波潋滟。谁赋诗高雅，谁轻吟浅唱。我在你的时光里模糊了模样，你在我的记忆里清晰如常。孰是孰非，谁输谁赢，无法言明心殇。<br>    时光，你好。轻轻地，如梦呓般。是问候，更是一种情怀。一声问候，跨过了岁月情长。静好心安，犹待新颜。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 精彩美文 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>求职简历</title>
+      <link href="/2022/12/27/%E6%B1%82%E8%81%8C%E7%AE%80%E5%8E%86/"/>
+      <url>/2022/12/27/%E6%B1%82%E8%81%8C%E7%AE%80%E5%8E%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="专业课程"><a href="#专业课程" class="headerlink" title="专业课程"></a>专业课程</h2><p>   算机应用技术，PS图像处理，Web前端设计，程序设计基础，数据库操作与管理，JavaScript高级应用，网页脚本技术，Java web</p><h2 id="学习经历"><a href="#学习经历" class="headerlink" title="学习经历"></a>学习经历</h2><p>   Java、JavaScript、Python、bootstrap、Jsp、jquery、phpcms、hexo、MySQL、Vue等</p><h2 id="项目经历"><a href="#项目经历" class="headerlink" title="项目经历"></a>项目经历</h2><p>   bootstrap设计旅游网站，Java图书管理系统，个人网站搭建</p><h2 id="求职的地点"><a href="#求职的地点" class="headerlink" title="求职的地点"></a>求职的地点</h2><p>   广西南宁市</p><h2 id="薪水期望"><a href="#薪水期望" class="headerlink" title="薪水期望"></a>薪水期望</h2><p>   4000-7000元</p><h2 id="所属行业"><a href="#所属行业" class="headerlink" title="所属行业"></a>所属行业</h2><p>   计算机前端开发</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人信息 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>余 华 《活着》</title>
+      <link href="/2022/12/10/%E3%80%8A%E6%B4%BB%E7%9D%80%E3%80%8B%E4%BD%99%E5%8D%8E/"/>
+      <url>/2022/12/10/%E3%80%8A%E6%B4%BB%E7%9D%80%E3%80%8B%E4%BD%99%E5%8D%8E/</url>
+      
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>生命原本脆弱，你却要坚强的活着。活着才能感觉生活的幸福真谛，只有在你遭遇不幸时，你才知道你要珍惜生命，享受快乐。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 精彩美文 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
